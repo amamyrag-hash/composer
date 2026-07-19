@@ -4,3 +4,4 @@ use App\Controllers\Control;
 $control=new Control();
 echo $control->Control();
 echo price();
+echo'new';
