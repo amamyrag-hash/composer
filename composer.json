@@ -1,0 +1,19 @@
+{
+    "name": "pezhvak/project2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "hossein",
+            "email": "amamyrag@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        },
+        "files": ["helpers.php"]
+    }
+}
