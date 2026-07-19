@@ -2,7 +2,7 @@
 namespace App\Servies;
 class servies
 {
-    public function Control()
+    public function has()
     {
         return "check control";
     }
